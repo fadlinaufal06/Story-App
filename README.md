@@ -5,6 +5,7 @@
 
 ### 1. Welcoming Page
 ![image](https://user-images.githubusercontent.com/74719273/176581384-adfb6b1b-d3bd-421b-a506-16885880736a.png)
+
 Here you can choose to register an account or login to the application
 
 ###2. Login & Register Page
