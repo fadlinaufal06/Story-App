@@ -9,8 +9,8 @@
 Here you can choose to register an account or login to the application
 
 ### 2. Login & Register Page
-<img src="https://user-images.githubusercontent.com/74719273/176581591-ed9dc7e6-72f6-41e7-ae0b-7aad47093b1f.png" alt="https://user-images.githubusercontent.com/74719273/176581591-ed9dc7e6-72f6-41e7-ae0b-7aad47093b1f.png" width="200"/>
-![image](https://user-images.githubusercontent.com/74719273/176581591-ed9dc7e6-72f6-41e7-ae0b-7aad47093b1f.png) ![image](https://user-images.githubusercontent.com/74719273/176581682-5205bb8b-91c3-42cc-834f-4031f3397ebb.png)
+![image](https://user-images.githubusercontent.com/74719273/176581591-ed9dc7e6-72f6-41e7-ae0b-7aad47093b1f.png)
+![image](https://user-images.githubusercontent.com/74719273/176581682-5205bb8b-91c3-42cc-834f-4031f3397ebb.png)
 
 Fill your credentials here
 
