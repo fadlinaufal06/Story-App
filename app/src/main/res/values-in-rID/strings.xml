@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">My Story App</string>
+    <string name="signup">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Bagikan momen berhargamu dengan My Story !\nUpload fotomu dan tambahkan cerita !</string>
+    <string name="title_welcome_page">Selamat datang di My Story</string>
+    <string name="title_signup_page">Bergabung di My Story sekarang !</string>
+    <string name="email">Email</string>
+    <string name="password" >Password</string>
+    <string name="message_login_page" >Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Bagikan cerita anda disini</string>
+    <string name="name">Name</string>
+    <string name="copyright">Copyright© My Story by Fadli Naufal Rahman</string>
+    <string name="message_main_page">Bagikan story mu, temukan story dari seluruh dunia.</string>
+    <string name="greeting">Hello %1$s,</string>
+    <string name="logout">Logout</string>
+    <string name="invalid_password">Password minimal 6 karakter</string>
+    <string name="invalid_email">Isi dengan email yang valid</string>
+    <string name="cannot_empty">Nama tidak boleh kosong</string>
+    <string name="capture_image">capture</string>
+    <string name="switch_camera">switch</string>
+    <string name="register_success_message">"Akun kamu sudah jadi, Ayo bagikan story mu !"</string>
+    <string name="register_success_title">"Register Sukses !"</string>
+    <string name="next">"Lanjut"</string>
+    <string name="continue_to">"Lanjutkan"</string>
+    <string name="register_failed_message">"Register gagal, coba lagi !"</string>
+    <string name="register_failed_title">"Register gagal !"</string>
+    <string name="login_success_message">"Login sukses!"</string>
+    <string name="login_success_title">"Bagus!"</string>
+    <string name="login_failed_message">"Coba lagi"</string>
+    <string name="login_failed_title">"Login gagal"</string>
+    <string name="language_settings">"Pengaturan Bahasa"</string>
+    <string name="story_list">"Daftar Story"</string>
+    <string name="story_photo">"Foto Story"</string>
+    <string name="post_story">Post Story</string>
+    <string name="empty_story">Empty Story</string>
+    <string name="uploaded_at">Di upload pada %1$s</string>
+    <string name="story_detail">Detail story</string>
+    <string name="story_image">Gambar story</string>
+    <string name="upload">upload</string>
+    <string name="no_file_uploaded">Gambar dan deskripsi harus diisi.</string>
+    <string name="description">deskripsi....</string>
+    <string name="image_preview">preview gambar</string>
+    <string name="gallery">galeri</string>
+    <string name="camera">kamera</string>
+    <string name="invalid_permission">izinkan akses lokasi</string>
+    <string name="upload_success">Upload sukses !</string>
+    <string name="upload_failed">Gagal upload, coba lagi.</string>
+    <string name="information">Info</string>
+    <string name="add_story">Tambahkan story</string>
+    <string name="title_activity_maps">Maps Activity</string>
+    <string name="list_story">list story</string>
+    <string name="share_location">bagikan lokasi</string>
+    <string name="location_permission">Izinkan akses lokasi</string>
+    <string name="error_occurred">Terjadi kesalahan</string>
+    <string name="invalid_description">isi deskripsi</string>
+    <string name="retry">coba lagi</string>
+    <string name="something_wrong">Terjadi Kesalahan</string>
+
+    <string-array name="gunung_name">
+        <item>Ahmad Dahlan</item>
+        <item>Ahmad Yani</item>
+        <item>Sutomo</item>
+        <item>Gatot Soebroto</item>
+        <item>Ki Hadjar Dewantara</item>
+        <item>Mohammad Hatta</item>
+        <item>Soedirman</item>
+        <item>Soekarno</item>
+        <item>Soepomo</item>
+    </string-array>
+
+</resources>

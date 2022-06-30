@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.uploadstory.UploadStoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:background="@color/navi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/add_story" />
+
+    <ImageView
+        android:id="@+id/iv_preview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+        app:srcCompat="@drawable/ic_image_holder" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_description"
+        app:layout_constraintTop_toBottomOf="@+id/et_description" />
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:backgroundTint="@color/navi"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_camera_x"
+        app:layout_constraintEnd_toEndOf="@+id/et_description"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_camera_x" />
+
+    <Button
+        android:id="@+id/btn_camera_x"
+        android:backgroundTint="@color/navi"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        android:text="@string/camera"
+
+        app:layout_constraintStart_toStartOf="@+id/et_description"
+        app:layout_constraintTop_toBottomOf="@+id/iv_preview" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:autofillHints="Your description"
+        android:background="@drawable/text_field"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:maxLines="7"
+        android:minLines="7"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gallery" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_location"
+        app:layout_constraintBottom_toBottomOf="@+id/switchCompat"
+        app:layout_constraintEnd_toStartOf="@+id/switchCompat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_description"
+        app:layout_constraintTop_toTopOf="@+id/switchCompat"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:backgroundTint="@color/navi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/upload"
+        app:layout_constraintEnd_toEndOf="@+id/et_description"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_description"
+        app:layout_constraintTop_toBottomOf="@+id/switchCompat" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

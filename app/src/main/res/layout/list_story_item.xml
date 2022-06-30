@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/story_photo"
+            android:scaleType="centerCrop"
+            tools:src="@color/navi"
+            android:transitionName="image"/>
+
+        <TextView
+            android:id="@+id/tv_uploader_name"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textSize="25sp"
+            tools:text="@string/name"
+            android:transitionName="name"/>
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="16sp"
+            tools:text="Description"
+            android:transitionName="description"/>
+
+        <TextView
+            android:id="@+id/tv_upload_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="13dp"
+            tools:text="Uploaded at"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
